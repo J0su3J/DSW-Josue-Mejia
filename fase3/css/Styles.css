@@ -2,11 +2,15 @@
     margin: 0;   
     padding: 0;
 }
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size:smaller;
+}
 
 
 .contenedor{
     display: grid;
-    background-color: bisque;
+    background-color:rgb(220, 239, 247);
     grid-template-areas: 'header header header'
     'menu menu menu'
     'main main aside'
@@ -16,47 +20,65 @@
 .contenedor div{
     background-color: rgb(220, 239, 247);
     text-align: center;
-    padding: 10px;
-    color: rgb(0, 0, 0);
-    border: 1px solid black;
+    padding: 9px;
+    /* color: rgb(0, 0, 0);
+    border: 1px solid black; */
 }
 
 .p1{
     grid-area: header;
+    margin: none;
     
 }
 
 .p2{
     grid-area: menu;
+    margin-left: 95px;
 
 }
 
 .p3{
     grid-area: main;
+    
 }
 
 .p4{
     grid-area: aside;
+   
+   
 }
+
 
 .p5{
     grid-area: footer;
 }
+
 .p1 >h1{
-    width: 100%;
+    width:90%;
     text-align: left;
+    padding-left:30px ;
+    
 }
 
 .img1{
     width: 90%;
-    height: 550px;
+    height: 300px;
     
 }
+.proposito{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+   
+}
 
+/* Menu */
 
 .p2 > nav{
 
-    margin: 20px;
+    
     width: 90%;
     max-width: 1000px;
 }
@@ -75,7 +97,7 @@
 .p2 nav > ul li{
 display: table-cell;
 }
-
+/* Sub menu */
 .p2 > nav > ul > li:hover > ul{
     display: block;
     height: 100%;
@@ -88,7 +110,7 @@ display: table-cell;
     display:none;
 }
 
-
+ 
 
 .p2 nav > ul li a{ 
     color: #fff;
@@ -104,6 +126,8 @@ display: table-cell;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
 }
+
+
 
 .p2 > nav > ul > li > ul > li a:hover{
     background: #5da5a2 ;
@@ -151,6 +175,8 @@ display: table-cell;
     background:#57819c ;
 }
 
+
+
 .p3 > h2{
     width: 100%;
     text-align: left;
@@ -160,12 +186,87 @@ display: table-cell;
     display: block;
     padding: 20px;
     
+    
 
 }
+
 
 .estructuraimg{
     width: 70%; 
     height: 250px;
     right: 0;
 }
+
+.img_0{
+
+    width: 7%;
+    height: 70px;
+    
+
+}
+.img_2{
+    width:40%;
+    height: 400px;
+}
+.img_3{
+    width: 12%;
+    height: 17px;
+}
+.img_4{
+    width: 11%;
+    height: 17px; 
+}
+.img_5{
+    width:50%;
+    height: 300px;
+}
+
+.audio_1{
+    width:50%;
+    height: 200px;
+}
+.img_6{
+    width: 90%;
+    height: 40%;
+    padding-right: 20px;
+    padding-left: 95px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img_7{
+    width: 40%;
+    height: 50%;
+    padding-right: 20px;
+    padding-left: 95px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mayor_info{
+   text-align: center;
+}
+
+.Tema_1_parrafo_1{
+    text-align: center;
+    padding-right: 0.5px;
+    padding-left: 95px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Tema_1_parrafo_2{
+    text-align: center;
+    padding-right: 0.5px;
+    padding-left: 95px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Tema_2_parrafo_1{
+    text-align: center;
+    padding-right: 0.5px;
+    padding-left: 95px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 

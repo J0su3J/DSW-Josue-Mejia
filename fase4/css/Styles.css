@@ -33,7 +33,7 @@ body{
 
 .p2{
     grid-area: menu;
-    margin-left: 95px;
+    /* margin-left: 95px; */
 
 }
 
